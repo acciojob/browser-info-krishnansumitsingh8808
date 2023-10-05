@@ -1,1 +1,9 @@
 /*  your css code here. If applicable */
+const newdiv=document.createElement("div");
+newdiv.setAttribute("id","browser-info");
+document.body.appendChild(newdiv);
+const browserUser = navigator.userAgent;
+const browserName=navigator.appName;
+const browserVersion=navigator.appVersion;
+const message=`You are using ${browserUser} browserName ${browserName} version ${browserVersion}`
+browser-info.textContent=message;
