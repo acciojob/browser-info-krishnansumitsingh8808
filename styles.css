@@ -6,4 +6,4 @@ const browserUser = navigator.userAgent;
 const browserName=navigator.appName;
 const browserVersion=navigator.appVersion;
 const message=`You are using ${browserUser} browserName ${browserName} version ${browserVersion}`
-browser-info.textContent=message;
+newdiv.textContent=message;
